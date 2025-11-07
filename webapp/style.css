@@ -1,0 +1,208 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 2%;
+    border: 0.5px solid; /* Рамочка */
+    border-radius: 12px;
+}
+
+.left_header {
+    flex: 4;
+    margin-bottom: 2%;
+    line-height: 1;
+    font-family: serif;
+}
+
+a {
+    color: #4c835a; /* зелёный цвет */
+}
+
+.right_header {
+    flex: 3;
+    margin-top: 2%;
+    border-left: 1px solid black;
+    padding-left: 1.5%;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    padding: 2%;
+    border: 0.5px solid; /* Рамочка */
+    border-radius: 12px;
+}
+
+.graph-block {
+    flex: 4;
+    line-height: 1;
+}
+
+.text-block {
+    flex: 3;
+    margin-top: 3%;
+    border-left: 1px solid black;
+    padding-left: 2%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.query {
+    width: 40%;
+    height: auto;
+    margin-top: 1%;
+    margin-right: center;
+    background-color: #b3dbbdb8;
+    border-radius: 3px;
+    border: 0.3px solid #707070ca;
+}
+
+.query:hover {
+    background-color: #b3dbbd;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0.3px solid #707070ca;
+}
+
+.table-block {
+    align-items: center;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    padding: 2%;
+    border: 0.5px solid; /* Рамочка */
+    border-radius: 12px;
+}
+
+.tb_header {
+    margin-bottom: 30px;
+}
+
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table th {
+    border: 1px solid grey;
+    padding: 1%;
+    text-align: left;
+    background-color: #b3dbbd69;
+}
+
+table td {
+    border: 1px solid grey;
+    padding: 1%;
+    text-align: left;
+    font-weight: normal;
+}
+
+tbody {
+    font-weight: normal;
+}
+
+table td {
+    word-wrap: break-word;
+    padding: 1%;
+    border: 1px solid grey;
+    font-size: 14px;
+}
+
+input[type="text"]#X {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;      /* как у кнопок */
+    /* margin: 3px;
+    margin-top: -3px; */
+    padding: 0;
+    padding-left: 5px;
+    font-weight: 500;
+    background-color: #ffffff2b;
+    border: 0.3px solid #707070ca;
+    border-radius: 3px;
+    font-size: 14px;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+input[type="text"]#X:hover {
+    background-color: #b3dbbd5f;
+}
+
+input[type="text"]#X:focus {
+    outline: none;
+    border: 0.3px solid #707070ca;
+}
+
+input[type="radio"][name="Y"] {
+    display: none;
+}
+
+input[type="radio"][name="Y"] + label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 33px;
+    margin: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #ffffff2b;
+    border: 0.3px solid #707070ca;
+    border-radius: 3px;
+    user-select: none;
+}
+
+input[type="radio"][name="Y"]:hover + label {
+    background-color: #b3dbbd5f;
+}
+
+input[type="radio"][name="Y"]:checked + label {
+    background-color: #b3dbbdb8;
+}
+
+input[type="checkbox"][name="R"] {
+    display: none;
+}
+
+input[type="checkbox"][name="R"] + label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 33px;
+    margin: 3px;
+    margin-top: -3px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #ffffff2b;
+    border: 0.3px solid #707070ca;
+    border-radius: 3px;
+    user-select: none;
+}
+
+input[type="checkbox"][name="R"]:hover + label {
+    background-color: #b3dbbd5f;
+}
+
+input[type="checkbox"][name="R"]:checked + label {
+    background-color: #b3dbbdb8;
+}
